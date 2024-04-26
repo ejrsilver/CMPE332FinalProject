@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    background-attachment: fixed;
+    background-position: center; 
+    transition: opacity .5s ease-in-out;
+}
+#main {
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+table {
+    text-align: center;
+    background-color: black;
+    border: 1pt solid;
+    width:100%;
+}
+th, td {
+    border: 1pt solid;
+    padding: 2pt;
+    background-color: white;
+    border-color: black;
+}
+#navbar {
+    overflow: hidden;
+    background-color: ghostwhite;
+    border: none;
+}
+#navbar table, #navbar th, #navbar td {
+    border: none;
+    background-color: ghostwhite;
+}
+#navbar th {
+    width: 55pt;
+}
+#navbar th:hover {
+    background-color: #ddd;
+    color: black;
+    transition: all .2s ease-in-out;
+}
+#navbar a {
+    text-decoration: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #aaaaaa;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

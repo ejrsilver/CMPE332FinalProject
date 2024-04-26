@@ -1,0 +1,15 @@
+{
+    "name": "ethansilver/restaurant",
+    "autoload": {
+        "psr-4": {
+            "Ethansilver\\Restaurant\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ejrsilver",
+            "email": "ejrsilver@gmail.com"
+        }
+    ],
+    "require": {}
+}
